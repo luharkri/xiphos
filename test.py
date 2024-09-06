@@ -1,4 +1,3 @@
-import RPi.GPIO as GPIO
-
-print("heres")
-#id_ed25519
+from gpiozero import LED, Button
+led = LED(17)
+led.on()
